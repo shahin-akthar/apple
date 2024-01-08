@@ -1,0 +1,379 @@
+.bg-container{
+    background-image: linear-gradient(black,black, #FF00CC, #333399);
+    color: #ffffff;
+    font-family: 'Arial';
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    overflow-y: hidden;
+}
+
+.laptop-image{
+    height: 30%;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.more-muscle{
+    color: #b5b2b2;
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.description{
+    text-align: center;
+    width: 70%;
+    color:#b5b2b2 ;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.m2-boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.m2-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.m2-image{
+    height: 500px;
+    width: 500px;
+}
+
+.supercharged{
+    font-size: 50px;
+}
+
+.core1 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right, #009245, #FCEE21);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+.core2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right, #93A5CF, #E4EfE9);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+.generation{
+    text-align: center;
+    width: 70%;
+    color:whitesmoke ;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.button{
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #000046, #1CB5E0);
+    border-image-slice: 1;
+}
+
+.speed-capability{
+    width: 85%;
+    background-image: linear-gradient(to right, rgb(80, 6, 52), rgb(30, 21, 74));
+    border-radius: 30px;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.speed{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.span{
+    color: #b5b2b2;
+}
+
+.hr-1{
+    display:  flex;
+    flex-direction: row;
+}
+
+.line1{
+    width: 75vw;
+    height: 0px;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, #da500c, #a00b69);
+    border-image-slice: 1;
+    border-width: 5px;
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.num{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0;
+    color: rgb(209, 125, 24);
+}
+
+.home-mac{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.line2{
+    width: 55vw;
+    height: 0px;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, yellow, orange, rgb(203, 40, 124));
+    border-image-slice: 1;
+    border-width: 5px;
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.num2{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0;
+    color: rgb(202, 18, 98);
+}
+
+.hr-2{
+    display:  flex;
+    flex-direction: row;
+}
+
+.line3{
+    width: 35vw;
+    height: 0px;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, white, silver);
+    border-image-slice: 1;
+    border-width: 5px;
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.line4{
+    width: 45vw;
+    height: 0px;
+    border-radius: 10px;
+    border-image: linear-gradient(to right,white, silver);
+    border-image-slice: 1;
+    border-width: 5px;
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.line5{
+    width: 25vw;
+    height: 0px;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, white, silver);
+    border-image-slice: 1;
+    border-width: 5px;
+    align-self: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.compatibility{
+    width: 85%;
+    background-image: linear-gradient(to right, red, orange);
+    border-radius: 30px;
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.compat{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 150px;
+}
+
+.mini-heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mac-para{
+    width: 30vw;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.mac-mini{
+    padding: 0;
+    margin: 0;
+}
+
+.mini-mac{
+    width: 730px;
+}
+
+@media screen and (max-width: 768px) {
+    .laptop-image{
+      width: 100%;
+      height: 45%;
+    }
+    
+    .mac-mini{
+        font-size: 25px;
+    }
+
+    .more-muscle{
+        font-size: 45px;
+    }
+
+    .description{
+        font-size: 25px;
+    }
+
+    .supercharged{
+        font-size: 40px;
+    }
+
+    .m2-image{
+        height: 300px;
+        width: 300px;
+    }
+
+    .core1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .core2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .generation{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .button{
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .speed-capability{
+        width: 80%;
+    }
+
+    .speed{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .compared{
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .line1{
+        width: 250px;
+    }
+
+    .home-mac{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .num{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .line2{
+        width: 200px;
+    }
+
+    .num2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .line4{
+        width: 180px;
+    }
+
+    .line3{
+        width: 130px;
+    }
+
+    .line5{
+        width: 110px;
+    }
+
+    .compatibility{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .compat{
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .mini-heading{
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .mac-para{
+        font-size: 20px;
+        font-weight: 500;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    .mini-mac{
+        width: 450px;
+        height: 600px;
+    }
+  }

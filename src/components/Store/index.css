@@ -1,0 +1,232 @@
+.store-container{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Arial';
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: linear-gradient(orange, rgb(242, 38, 38), rgb(236, 45, 188));
+}
+
+.store-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+a{
+    color: white;
+}
+
+.heading{
+    width: 50vw;
+    padding: 25px;
+}
+
+.store{
+    width: 50vw;
+    padding: 25px;
+    font-size: 40px;
+}
+
+.store-span{
+    font-size: 40px;
+    color: #3d2b4f;
+}
+
+.profile-section{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.source{
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text2{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.largest{
+    align-self: flex-start;
+    padding: 25px;
+    font-size: 40px;
+}
+
+.span2{
+    color: #e3d1d1;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.mobile1{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844");
+    height: 70vh;
+    width: 23vw;
+    color: white;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.mobile2{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967");
+    height: 70vh;
+    width: 23vw;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+    color: black;
+}
+
+.mobile3{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696875297972");
+    height: 70vh;
+    width: 23vw;
+    border-radius: 20px;
+    margin: 25px;
+    color: black;
+    padding: 15px;
+}
+
+.c1{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1701194078821");
+    height: 64vh;
+    width: 26%;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.apple{
+    color: #605656;
+}
+
+.shop{
+    font-size: 25px;
+}
+
+.c2{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-video-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1694270835539");
+    height: 64vh;
+    width: 26%;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.new{
+    color: red;
+}
+
+.shop2{
+    color: white;
+    font-size: 25px;
+    width: 20vw;
+}
+
+.choose{
+    color: white;
+    width: 15vw;
+}
+
+.c3{
+    background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-TAA-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1697149577145");
+    height: 64vh;
+    width: 26%;
+    border-radius: 20px;
+    margin: 25px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .store-container2{
+        flex-direction: column;
+    }
+
+    .store{
+        font-size: 30px;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .store-span{
+        font-size: 30px;
+    }
+
+    .source{
+        border-radius: 40px;
+        height: 35px;
+    }
+
+    .text1{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .text2{
+        font-size: 15px;
+    }
+
+    .largest{
+        font-size: 30px;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .mobile1{
+        width: 50vw;
+    }
+
+    .mobile2{
+        width: 50vw;
+    }
+
+    .mobile3{
+        width: 50vw;
+    }
+
+    .c1{
+        width: 60vw;
+    }
+
+    .c2{
+        width: 60vw;
+    }
+
+    .c3{
+        width: 60vw;
+    }
+}

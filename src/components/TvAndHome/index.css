@@ -1,0 +1,184 @@
+.tv-container{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Arial';
+    background-color: whitesmoke;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tv-homepod{
+    margin-top: 80px;
+    height: 600px;
+    width: 80%;
+    align-self: center;
+    margin-bottom: 80px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.tv-heading{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.para{
+    color: rgb(137, 129, 129);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 60vw;
+    align-self: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    margin: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.tv-1{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    margin: 35px;
+    color: white;
+    width: 40vw;
+}
+
+.homepod{
+    width: 40vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.tv-home{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.tv-sound{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.buy{
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.learn{
+    padding: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tv-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px;
+    color: black;
+    width: 40vw;
+    height: 600px;
+}
+
+.buy2{
+    background-color: black;
+    color: white;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
+.learn2{
+    padding: 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .tv-homepod{
+        height: 300px;
+        width: 70vw;
+    }
+
+    .tv-heading{
+        font-size: 40px;
+        font-weight: 700;
+        padding: 20;
+        margin: 0;
+    }
+
+    .para{
+        font-size: 20px;
+        font-weight: 500;
+        width: 90vw;
+        padding: 20;
+        margin: 0;
+    }
+
+    .tv-1{
+        width: 70vw;
+        height: 600px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tv-home{
+        padding: 0;
+        margin: 0;
+    }
+
+    .homepod{
+        width: 70vw;
+    }
+
+    .tv-2{
+        width: 70vw;
+        height: 600px;
+    }
+}
